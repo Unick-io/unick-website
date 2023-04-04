@@ -1,91 +1,73 @@
-import Image from 'next/image'
-import { Inter } from 'next/font/google'
-import styles from './page.module.css'
+import Head from "next/head";
+import Hero from "app/components/hero";
+import Navbar from "app/components/navbar";
+import SectionTitle from "app/components/sectionTitle";
+import { benefitOne, benefitTwo } from "app/components/data";
+import Benefits from "app/components/benefits";
+import Footer from "app/components/footer";
+import Collections from "app/components/collections";
+import Cta from "app/components/cta";
 
-const inter = Inter({ subsets: ['latin'] })
+
+
+//import dynamic from "next/dynamic";
+
+// const Video = dynamic(() => import("../components/video"));
+
+// const Benefits = dynamic(() => import("../components/benefits"));
+// const Footer = dynamic(() => import("../components/footer"));
+// const Testimonials = dynamic(() => import("../components/testimonials"));
+// const Cta = dynamic(() => import("../components/cta"));
+// const Faq = dynamic(() => import("../components/faq"));
+
+// const PopupWidget = dynamic(() => import("../components/popupWidget"));
 
 export default function Home() {
   return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>app/page.js</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
-      </div>
-
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
+    <>
+      <Head>
+        <title>Unick.io multi-chain NFT marketplace aggregator & NFT launchpad</title>
+        <meta
+          name="description"
+          content="Unick.io powerful marketplace aggregator, NFT launchpad, staking, and minting platform, 
+          is a one-stop-shop for all things NFTs."
         />
-        <div className={styles.thirteen}>
-          <Image src="/thirteen.svg" alt="13" width={40} height={31} priority />
-        </div>
-      </div>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
 
-      <div className={styles.grid}>
-        <a
-          href="https://beta.nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={inter.className}>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p className={inter.className}>
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
+      <Navbar />
+      <Hero />
+      <SectionTitle
+        pretitle="Unick Benefits"
+        title=" Why should you use Unick.io">
+        Unick.io is a revolutionary multi-chain NFT platform that provides users with a seamless and secure way to buy, sell, trade, and 
+        collect NFTs across multiple blockchains. With its powerful marketplace aggregator, NFT launchpad, staking, and minting capabilities, 
+        Unick.io is a one-stop-shop for all things NFTs.
+      </SectionTitle>
+      <Benefits data={benefitOne} />
+      <Benefits imgPos="right" data={benefitTwo} />
+      <SectionTitle
+        pretitle="Latest Drop"
+        title="Minting now">
+        Unick Membership Card NFT allows users early access to all upcoming mints, discount prices for NFTs and much more.
+        Have we mentioned a Unick token airdrop yet? Stay tuned for more info. <br />
+        Hit the play button to view it!
+      </SectionTitle>
 
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={inter.className}>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p className={inter.className}>Explore the Next.js 13 playground.</p>
-        </a>
+      <SectionTitle
+        pretitle="NFT Collections"
+        title="Collections Launched with Unick">
+        Our launchpad is a great way to increase your collections trust and build awareness.
+      </SectionTitle>
+      <Collections />
+      <SectionTitle pretitle="FAQ" title="Frequently Asked Questions">
+        Answer your customers possible questions here, it will increase the
+        conversion rate as well as support or chat requests.
+      </SectionTitle>
 
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={inter.className}>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p className={inter.className}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
-  )
+      <Cta />
+      <Footer />
+
+    </>
+  );
 }
