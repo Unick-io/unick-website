@@ -107,28 +107,16 @@ export default function Footer() {
           </div>
           <div>
             <div>Follow our socials</div>
-            <div className="flex mt-5 space-x-5 text-gray-400 dark:text-gray-500">
-              <div
-                href="https://twitter.com/unick_io"
-                target="_blank"
-                rel="window">
-                <span className="sr-only">Twitter</span>
-                <SocialIcon network="twitter" style={{ height: 24, width: 24 }} key="a"/>
-              </div>
-              <div
-                href="https://instagram.com/unick_io"
-                target="_blank"
-                rel="window">
-                <span className="sr-only">Instagram</span>
-                <SocialIcon network="instagram" style={{ height: 24, width: 24 }} key="b"/>
-              </div>
-              <div
-                href="https://discord.gg/Rnmut7dV"
-                target="_blank"
-                rel="window">
-                <span className="sr-only">Discord</span>
-                <SocialIcon network="discord" style={{ height: 24, width: 24 }} key="c"/>
-              </div>
+              <div className="flex mt-5 space-x-5 text-gray-400 dark:text-gray-500">
+              <Link legacyBehavior href="https://twitter.com/unick_io">
+                <SocialIcon network="twitter" style={{ height: 24, width: 24 }} key="a" target="_blank" />
+              </Link>
+              <Link legacyBehavior href="https://www.instagram.com/unick_io/">
+                <SocialIcon network="instagram" style={{ height: 24, width: 24 }} key="b" target="_blank" />
+              </Link>
+              <Link legacyBehavior href="https://discord.gg/gpnzJXBG8m">
+                <SocialIcon network="discord" style={{ height: 24, width: 24 }} key="c" target="_blank" />
+              </Link>         
             </div>
           </div>
         </div>

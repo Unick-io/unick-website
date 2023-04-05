@@ -52,16 +52,16 @@ export default function Hero() {
             web3 technology providers.
           </div>
 
-          <div className="flex flex-wrap justify-center gap-5 mt-6 md:justify-around">
-          <div className="pt-1 text-gray-400 dark:text-gray-400">
+          <div className="flex flex-wrap justify-center gap-5 mt-6 md:justify-around bg-white rounded-2xl">
+          <div className="pt-1 text-gray-400 dark:text-gray-400 mt-16">
             <Image
               src="/img/wagmiLogo.svg"
               width="200"
-              height="200"
+              height="100"
               alt="wagmi"
               />
             </div>
-            <div className="pt-2 text-gray-400 dark:text-gray-400 mb-10">
+            <div className="pt-2 text-gray-400 dark:text-gray-400 mb-4">
             <Image
               src="/img/thirdweb.svg"
               width="220"
@@ -77,7 +77,7 @@ export default function Hero() {
               alt="reservoir"
             />
             </div>
-            <div className="text-gray-400 dark:text-gray-400">
+            <div className="text-gray-400 dark:text-gray-400 mt-16 mb-16">
             <Image
               src="/img/alchemy.svg"
               width="200"

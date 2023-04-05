@@ -1,3 +1,4 @@
+'use client'
 import Head from "next/head";
 import Hero from "app/components/hero";
 import Navbar from "app/components/navbar";
@@ -7,20 +8,10 @@ import Benefits from "app/components/benefits";
 import Footer from "app/components/footer";
 import Collections from "app/components/collections";
 import Cta from "app/components/cta";
-
-
-
-//import dynamic from "next/dynamic";
-
-// const Video = dynamic(() => import("../components/video"));
-
-// const Benefits = dynamic(() => import("../components/benefits"));
-// const Footer = dynamic(() => import("../components/footer"));
-// const Testimonials = dynamic(() => import("../components/testimonials"));
-// const Cta = dynamic(() => import("../components/cta"));
-// const Faq = dynamic(() => import("../components/faq"));
-
-// const PopupWidget = dynamic(() => import("../components/popupWidget"));
+import Video from "app/components/video";
+import FAQ from "app/components/faq";
+import PopupWidget from "app/components/popupWidget";
+import { ThemeProvider } from "next-themes";
 
 export default function Home() {
   return (
@@ -53,7 +44,7 @@ export default function Home() {
         Have we mentioned a Unick token airdrop yet? Stay tuned for more info. <br />
         Hit the play button to view it!
       </SectionTitle>
-
+      <Video />
       <SectionTitle
         pretitle="NFT Collections"
         title="Collections Launched with Unick">
@@ -64,10 +55,10 @@ export default function Home() {
         Answer your customers possible questions here, it will increase the
         conversion rate as well as support or chat requests.
       </SectionTitle>
-
+      <FAQ />
       <Cta />
       <Footer />
-
+      <PopupWidget />
     </>
   );
 }
