@@ -108,13 +108,13 @@ export default function Footer() {
           <div>
             <div>Follow our socials</div>
               <div className="flex mt-5 space-x-5 text-gray-400 dark:text-gray-500">
-              <Link legacyBehavior href="https://twitter.com/unick_io">
+              <Link href="https://twitter.com/unick_io">
                 <SocialIcon network="twitter" style={{ height: 24, width: 24 }} key="a" target="_blank" />
               </Link>
-              <Link legacyBehavior href="https://www.instagram.com/unick_io/">
+              <Link href="https://www.instagram.com/unick_io/">
                 <SocialIcon network="instagram" style={{ height: 24, width: 24 }} key="b" target="_blank" />
               </Link>
-              <Link legacyBehavior href="https://discord.gg/gpnzJXBG8m">
+              <Link href="https://discord.gg/gpnzJXBG8m">
                 <SocialIcon network="discord" style={{ height: 24, width: 24 }} key="c" target="_blank" />
               </Link>         
             </div>
