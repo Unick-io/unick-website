@@ -53,7 +53,7 @@ export default function Home() {
       </SectionTitle>
       <Collections />
       <SectionTitle pretitle="FAQ" title="Frequently Asked Questions">
-        Check out some common questions asked by our community. If you can&apos;t find the answer there, ude &apos;contact us&apos; bubble on the right.
+        Check out some common questions asked by our community. If you can&apos;t find the answer there, use &apos;contact us&apos; bubble on the right.
       </SectionTitle>
       <FAQ />
       <Cta />
