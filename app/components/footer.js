@@ -2,6 +2,7 @@ import Link from "next/link";
 import React from "react";
 import Container from "./container";
 import { SocialIcon } from 'react-social-icons';
+import Image from "next/image";
 
 export default function Footer() {
 
@@ -15,7 +16,7 @@ export default function Footer() {
               <Link href="/">
                 <div className="flex items-center space-x-2 text-2xl font-medium text-black-500 dark:text-gray-100">
                   <span>
-                    <img
+                    <Image
                       src="/img/unickLogo.png"
                       alt="N"
                       width="32"
@@ -108,14 +109,20 @@ export default function Footer() {
           <div>
             <div>Follow our socials</div>
               <div className="flex mt-5 space-x-5 text-gray-400 dark:text-gray-500">
-              <Link href="https://twitter.com/unick_io">
+              <Link legacyBehavior href="https://twitter.com/unick_io">
+                <a>
                 <SocialIcon network="twitter" style={{ height: 24, width: 24 }} key="a" target="_blank" />
+                </a>
               </Link>
-              <Link href="https://www.instagram.com/unick_io/">
+              <Link legacyBehavior href="https://www.instagram.com/unick_io/">
+                <a>
                 <SocialIcon network="instagram" style={{ height: 24, width: 24 }} key="b" target="_blank" />
+                </a>
               </Link>
-              <Link href="https://discord.gg/gpnzJXBG8m">
+              <Link legacyBehavior href="https://discord.gg/gpnzJXBG8m">
+                <a>
                 <SocialIcon network="discord" style={{ height: 24, width: 24 }} key="c" target="_blank" />
+                </a>
               </Link>         
             </div>
           </div>

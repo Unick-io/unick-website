@@ -1,5 +1,6 @@
 'use client'
 import Link from "next/link";
+import Image from "next/image";
 import ThemeChanger from "./DarkSwitch";
 import { Disclosure } from "@headlessui/react";
 
@@ -21,7 +22,7 @@ export default function Navbar() {
                 <Link legacyBehavior href="/">
                   <a className="flex items-center space-x-2 text-2xl font-medium text-black-500 dark:text-gray-100">
                     <span>
-                      <img
+                      <Image
                         src="/img/unickLogo.png"
                         alt="N"
                         width="32"
