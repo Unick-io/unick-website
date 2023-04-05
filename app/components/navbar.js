@@ -1,7 +1,6 @@
 'use client'
 import Link from "next/link";
 import Image from "next/image";
-import ThemeChanger from "./DarkSwitch";
 import { Disclosure } from "@headlessui/react";
 
 export default function Navbar() {
@@ -156,8 +155,6 @@ export default function Navbar() {
               View Docs
             </a>
           </Link>
-
-          <ThemeChanger />
         </div>
       </nav>
     </div>

@@ -12,7 +12,7 @@ export default function Collections() {
     <Container>
       <div className="grid gap-10 lg:grid-cols-2 xl:grid-cols-3">
         <div className="lg:col-span-2 xl:col-auto">
-          <div className="flex flex-col justify-between w-full h-full bg-gray-900 px-14 rounded-2xl py-14 dark:bg-gray-800">
+          <div className="flex flex-col items-center justify-between w-full h-full bg-gray-400 px-14 rounded-2xl py-14 dark:bg-gray-700">
           <Image 
           className="align-middle"
           src={BOGC}
@@ -29,11 +29,11 @@ export default function Collections() {
           </div>
         </div>
         <div className="">
-          <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-gray-800">
+          <div className="flex flex-col items-center justify-between w-full h-full bg-gray-300 px-14 rounded-2xl py-14 dark:bg-gray-500">
           <Image 
           className="ml-4"
           src={unickMember}
-          width="300"
+          width="340"
           height="400"
           alt="blockheads"
           />
@@ -46,7 +46,7 @@ export default function Collections() {
           </div>
         </div>
         <div className="">
-          <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-gray-800">
+          <div className="flex flex-col items-center justify-between w-full h-full bg-gray-400 px-14 rounded-2xl py-14 dark:bg-gray-700">
             <p className="text-2xl leading-normal ">
               Apply for <Mark>Launchpad</Mark> and your collection will appear here!
             </p>

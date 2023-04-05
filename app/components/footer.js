@@ -82,22 +82,21 @@ export default function Footer() {
             <div className="flex flex-wrap w-full -mt-2 -ml-3 lg:ml-0">
             <ul className="cursor-pointer">
           <li>
-            <Link href="https://docs.unick.io" id="documentation">
+            <Link href="https://docs.unick.io" id="documentation" target="blank">
               <div className="w-full px-4 py-2 text-gray-500 rounded-md dark:text-gray-300 hover:text-purple-500 focus:text-purple-500 focus:bg-purple-100 focus:outline-none dark:focus:bg-gray-700">
                 Docs
               </div>
             </Link>
           </li>
           <li>
-            <Link href="/terms" id="terms & conditions">
+            <Link href="/terms" target="blank">
               <div className="w-full px-4 py-2 text-gray-500 rounded-md dark:text-gray-300 hover:text-purple-500 focus:text-purple-500 focus:bg-purple-100 focus:outline-none dark:focus:bg-gray-700">
                 Terms
               </div>
             </Link>
           </li>
-
           <li>
-            <Link href="/policy" id="privacy policy">
+            <Link href="/policy" id="terms & conditions">
               <div className="w-full px-4 py-2 text-gray-500 rounded-md dark:text-gray-300 hover:text-purple-500 focus:text-purple-500 focus:bg-purple-100 focus:outline-none dark:focus:bg-gray-700">
                 Privacy Policy
               </div>
@@ -111,17 +110,17 @@ export default function Footer() {
               <div className="flex mt-5 space-x-5 text-gray-400 dark:text-gray-500">
               <Link legacyBehavior href="https://twitter.com/unick_io">
                 <a>
-                <SocialIcon network="twitter" style={{ height: 24, width: 24 }} key="a" target="_blank" />
+                <SocialIcon network="twitter" style={{ height: 30, width: 30 }} key="a" target="_blank" />
                 </a>
               </Link>
               <Link legacyBehavior href="https://www.instagram.com/unick_io/">
                 <a>
-                <SocialIcon network="instagram" style={{ height: 24, width: 24 }} key="b" target="_blank" />
+                <SocialIcon network="instagram" style={{ height: 30, width: 30 }} key="b" target="_blank" />
                 </a>
               </Link>
               <Link legacyBehavior href="https://discord.gg/gpnzJXBG8m">
                 <a>
-                <SocialIcon network="discord" style={{ height: 24, width: 24 }} key="c" target="_blank" />
+                <SocialIcon network="discord" style={{ height: 30, width: 30 }} key="c" target="_blank" />
                 </a>
               </Link>         
             </div>

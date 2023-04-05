@@ -11,8 +11,6 @@ import Cta from "app/components/cta";
 import Video from "app/components/video";
 import FAQ from "app/components/faq";
 import PopupWidget from "app/components/popupWidget";
-import { ThemeProvider } from "next-themes";
-
 
 export default function Home() {
   return (

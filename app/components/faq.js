@@ -13,7 +13,7 @@ export default function Faq() {
             <Disclosure>
               {({ open }) => (
                 <>
-                  <Disclosure.Button className="flex items-center justify-between w-full px-4 py-4 text-lg text-left text-gray-800 rounded-lg bg-gray-500 hover:bg-gray-800 focus:outline-none focus-visible:ring focus-visible:ring-purple-100 focus-visible:ring-opacity-75 dark:bg-Gray-800 dark:text-gray-200">
+                  <Disclosure.Button className="flex items-center justify-between w-full px-4 py-4 text-lg text-left text-white rounded-lg bg-gray-500 hover:bg-gray-800 focus:outline-none focus-visible:ring focus-visible:ring-purple-100 focus-visible:ring-opacity-75 dark:bg-Gray-800 dark:text-gray-200">
                     <span>{item.question}</span>
                     <ChevronUpIcon
                       className={`${
@@ -21,7 +21,7 @@ export default function Faq() {
                       } w-5 h-5 text-purple-700 bg-white rounded-2xl`}
                     />
                   </Disclosure.Button>
-                  <Disclosure.Panel className="px-4 pt-4 pb-2 text-gray-500 dark:text-gray-300">
+                  <Disclosure.Panel className="px-4 pt-4 pb-2 text-white dark:text-gray-300">
                     {item.answer}
                   </Disclosure.Panel>
                 </>
