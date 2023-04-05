@@ -13,6 +13,7 @@ import FAQ from "app/components/faq";
 import PopupWidget from "app/components/popupWidget";
 import { ThemeProvider } from "next-themes";
 
+
 export default function Home() {
   return (
     <>
@@ -52,8 +53,7 @@ export default function Home() {
       </SectionTitle>
       <Collections />
       <SectionTitle pretitle="FAQ" title="Frequently Asked Questions">
-        Answer your customers possible questions here, it will increase the
-        conversion rate as well as support or chat requests.
+        Check out some common questions asked by our community. If you can't find the answer there, ude 'contact us' bubble on the right.
       </SectionTitle>
       <FAQ />
       <Cta />
