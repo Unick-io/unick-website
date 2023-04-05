@@ -52,7 +52,7 @@ export default function Hero() {
             web3 technology providers.
           </div>
 
-          <div className="flex flex-wrap justify-center gap-5 mt-6 md:justify-around bg-white rounded-2xl">
+          <div className="flex flex-wrap justify-center gap-5 mt-6 md:justify-around bg-gray-300 rounded-2xl">
           <div className="pt-1 text-gray-400 dark:text-gray-400 mt-16">
             <Image
               src="/img/wagmiLogo.svg"

@@ -122,7 +122,7 @@ export default function Footer() {
                 <a>
                 <SocialIcon network="discord" style={{ height: 30, width: 30 }} key="c" target="_blank" />
                 </a>
-              </Link>         
+              </Link>       
             </div>
           </div>
         </div>
@@ -138,7 +138,6 @@ export default function Footer() {
           </div>
         </div>
       </Container>
-
     </div>
   );
 }
