@@ -62,13 +62,6 @@ export default function Footer() {
             </Link>
           </li>
           <li>
-            <Link href="/about" id="about">
-              <div className="w-full px-4 py-2 text-gray-500 rounded-md dark:text-gray-300 hover:text-purple-500 focus:text-purple-500 focus:bg-purple-100 focus:outline-none dark:focus:bg-gray-700">
-                About
-              </div>
-            </Link>
-          </li>
-          <li>
             <Link href="/blog" id="blog">
               <div className="w-full px-4 py-2 text-gray-500 rounded-md dark:text-gray-300 hover:text-purple-500 focus:text-purple-500 focus:bg-purple-100 focus:outline-none dark:focus:bg-gray-700">
                 Blog
@@ -89,14 +82,14 @@ export default function Footer() {
             </Link>
           </li>
           <li>
-            <Link href="/terms" target="blank">
+            <Link href="https://docs.unick.io/Terms-of-service" target="blank">
               <div className="w-full px-4 py-2 text-gray-500 rounded-md dark:text-gray-300 hover:text-purple-500 focus:text-purple-500 focus:bg-purple-100 focus:outline-none dark:focus:bg-gray-700">
                 Terms
               </div>
             </Link>
           </li>
           <li>
-            <Link href="/policy" id="terms & conditions">
+            <Link href="https://docs.unick.io/privacy-policy" id="terms & conditions">
               <div className="w-full px-4 py-2 text-gray-500 rounded-md dark:text-gray-300 hover:text-purple-500 focus:text-purple-500 focus:bg-purple-100 focus:outline-none dark:focus:bg-gray-700">
                 Privacy Policy
               </div>

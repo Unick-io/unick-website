@@ -72,16 +72,9 @@ export default function Navbar() {
                       </Link>
                     </li>
                     <li>
-                      <Link href="/about" id="about">
-                        <div className="w-full px-4 py-2 text-gray-500 rounded-md dark:text-gray-300 hover:text-purple-500 focus:text-purple-500 focus:bg-purple-100 focus:outline-none dark:focus:bg-trueGray-700">
-                          About
-                        </div>
-                      </Link>
-                    </li>
-                    <li>
                       <Link href="/blog" id="blog">
                         <div className="w-full px-4 py-2 text-gray-500 rounded-md dark:text-gray-300 hover:text-purple-500 focus:text-purple-500 focus:bg-purple-100 focus:outline-none dark:focus:bg-trueGray-700">
-                          Blog
+                          Blog (coming soon)
                         </div>
                       </Link>
                       </li>
@@ -118,21 +111,14 @@ export default function Navbar() {
           <li>
             <Link href="https://launchpad.unick.io" id="launchpad">
               <div className="w-full px-4 py-2 text-gray-500 rounded-md dark:text-gray-300 hover:text-purple-500 focus:text-purple-500 focus:bg-purple-100 focus:outline-none dark:focus:bg-trueGray-700">
-                Launchpad
-              </div>
-            </Link>
-          </li>
-          <li>
-            <Link href="/about" id="about">
-              <div className="w-full px-4 py-2 text-gray-500 rounded-md dark:text-gray-300 hover:text-purple-500 focus:text-purple-500 focus:bg-purple-100 focus:outline-none dark:focus:bg-trueGray-700">
-                About
+                Launchpad (in development)
               </div>
             </Link>
           </li>
           <li>
             <Link href="/blog" id="blog">
               <div className="w-full px-4 py-2 text-gray-500 rounded-md dark:text-gray-300 hover:text-purple-500 focus:text-purple-500 focus:bg-purple-100 focus:outline-none dark:focus:bg-trueGray-700">
-                Blog
+                Blog (coming soon)
               </div>
             </Link>
             </li>

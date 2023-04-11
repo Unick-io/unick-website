@@ -38,7 +38,7 @@ export default function Home() {
       <Benefits imgPos="right" data={benefitTwo} />
       <SectionTitle
         pretitle="Latest Drop"
-        title="Minting now">
+        title="Minting soon">
         Unick Membership Card NFT allows users early access to all upcoming mints, discount prices for NFTs and much more.
         Have we mentioned a Unick token airdrop yet? Stay tuned for more info. <br />
         Hit the play button to view it!
