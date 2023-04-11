@@ -72,6 +72,13 @@ export default function Navbar() {
                       </Link>
                     </li>
                     <li>
+                      <Link href="https://unick_io.mg.land/Land" id="unick space">
+                        <div className="w-full px-4 py-2 text-gray-500 rounded-md dark:text-gray-300 hover:text-purple-500 focus:text-purple-500 focus:bg-purple-100 focus:outline-none dark:focus:bg-trueGray-700">
+                          Unick Space
+                        </div>
+                      </Link>
+                    </li>
+                    <li>
                       <Link href="/blog" id="blog">
                         <div className="w-full px-4 py-2 text-gray-500 rounded-md dark:text-gray-300 hover:text-purple-500 focus:text-purple-500 focus:bg-purple-100 focus:outline-none dark:focus:bg-trueGray-700">
                           Blog (coming soon)
@@ -112,6 +119,13 @@ export default function Navbar() {
             <Link href="https://launchpad.unick.io" id="launchpad">
               <div className="w-full px-4 py-2 text-gray-500 rounded-md dark:text-gray-300 hover:text-purple-500 focus:text-purple-500 focus:bg-purple-100 focus:outline-none dark:focus:bg-trueGray-700">
                 Launchpad (in development)
+              </div>
+            </Link>
+          </li>
+          <li>
+            <Link href="https://unick_io.mg.land/Land" id="unick space">
+              <div className="w-full px-4 py-2 text-gray-500 rounded-md dark:text-gray-300 hover:text-purple-500 focus:text-purple-500 focus:bg-purple-100 focus:outline-none dark:focus:bg-trueGray-700">
+                Unick Space
               </div>
             </Link>
           </li>
