@@ -23,7 +23,7 @@ export default function Navbar() {
                     <span>
                       <Image
                         src="/img/unickLogo.png"
-                        alt="N"
+                        alt="unick-logo"
                         width="32"
                         height="32"
                         className="w-8"
@@ -150,7 +150,8 @@ export default function Navbar() {
           <Link legacyBehavior 
                 href="https://docs.unick.io"
                 target="_blank"
-                rel="window">
+                rel="window"
+          >
             <a className="px-6 py-2 text-white bg-purple-600 rounded-md md:ml-5">
               View Docs
             </a>
